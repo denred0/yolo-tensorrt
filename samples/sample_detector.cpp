@@ -168,5 +168,4 @@ int main()
 	std::cout << "Duration: " + std::to_string(ms_double.count()) + '\n';
 	std::cout << "Avg Inference time: " + std::to_string(duration_time / (filenames.size())) + '\n';
 
-
 }
