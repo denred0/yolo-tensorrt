@@ -67,7 +67,7 @@ int main()
 
 
 	#ifdef __linux__
-        std::string separator = "/";
+    	std::string separator = "/";
     #elif _WIN32
         std::string separator = "\\";
     #endif
